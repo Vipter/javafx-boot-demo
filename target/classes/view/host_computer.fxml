@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="694.0" prefWidth="1083.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.huawei.fxboot.host_computer.controller.HostComputerController">
+   <top>
+      <MenuBar prefHeight="32.0" prefWidth="1083.0" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <SplitPane dividerPositions="0.3484848484848485" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button fx:id="deviceManagement" layoutX="57.0" layoutY="25.0" mnemonicParsing="false" onAction="#deviceClick" prefHeight="115.0" prefWidth="131.0" style="-fx-background-color: #45b97c;" text="设备管理" />
+                  <Button layoutX="319.0" layoutY="26.0" mnemonicParsing="false" prefHeight="113.0" prefWidth="136.0" style="-fx-background-color: #45b97c;" text="拓扑管理" />
+                  <Button layoutX="606.0" layoutY="27.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="138.0" style="-fx-background-color: #45b97c;" text="资源管理" />
+                  <Button layoutX="870.0" layoutY="27.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="152.0" style="-fx-background-color: #45b97c;" text="服务管理" />
+                  <Button layoutX="57.0" layoutY="160.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="965.0" style="-fx-background-color: #45b97c;" text="服务编排" />
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="splitBottomManagement" minHeight="0.0" minWidth="0.0" prefHeight="317.0" prefWidth="1081.0" />
+        </items>
+      </SplitPane>
+   </center>
+   <bottom>
+      <Pane fx:id="bottomDevicePane" prefHeight="64.0" prefWidth="1083.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

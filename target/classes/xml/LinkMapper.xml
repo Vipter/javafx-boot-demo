@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huawei.fxboot.host_computer.mapper.LinkMapper">
+  <resultMap id="BaseResultMap" type="com.huawei.fxboot.host_computer.domain.entity.LinkEntity">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="route_id" jdbcType="INTEGER" property="routeId" />
+    <result column="switch_id" jdbcType="INTEGER" property="switchId" />
+    <result column="firewall_id" jdbcType="INTEGER" property="firewallId" />
+    <result column="connect_type" jdbcType="VARCHAR" property="connectType" />
+    <result column="point_a" jdbcType="VARCHAR" property="pointA" />
+    <result column="point_b" jdbcType="VARCHAR" property="pointB" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, route_id, switch_id, firewall_id, connect_type, point_a, point_b
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from link
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from link
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.huawei.fxboot.host_computer.domain.entity.LinkEntity">
+    insert into link (id, route_id, switch_id, 
+      firewall_id, connect_type, point_a, 
+      point_b)
+    values (#{id,jdbcType=INTEGER}, #{routeId,jdbcType=INTEGER}, #{switchId,jdbcType=INTEGER}, 
+      #{firewallId,jdbcType=INTEGER}, #{connectType,jdbcType=VARCHAR}, #{pointA,jdbcType=VARCHAR}, 
+      #{pointB,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.huawei.fxboot.host_computer.domain.entity.LinkEntity">
+    insert into link
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="routeId != null">
+        route_id,
+      </if>
+      <if test="switchId != null">
+        switch_id,
+      </if>
+      <if test="firewallId != null">
+        firewall_id,
+      </if>
+      <if test="connectType != null">
+        connect_type,
+      </if>
+      <if test="pointA != null">
+        point_a,
+      </if>
+      <if test="pointB != null">
+        point_b,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="routeId != null">
+        #{routeId,jdbcType=INTEGER},
+      </if>
+      <if test="switchId != null">
+        #{switchId,jdbcType=INTEGER},
+      </if>
+      <if test="firewallId != null">
+        #{firewallId,jdbcType=INTEGER},
+      </if>
+      <if test="connectType != null">
+        #{connectType,jdbcType=VARCHAR},
+      </if>
+      <if test="pointA != null">
+        #{pointA,jdbcType=VARCHAR},
+      </if>
+      <if test="pointB != null">
+        #{pointB,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.huawei.fxboot.host_computer.domain.entity.LinkEntity">
+    update link
+    <set>
+      <if test="routeId != null">
+        route_id = #{routeId,jdbcType=INTEGER},
+      </if>
+      <if test="switchId != null">
+        switch_id = #{switchId,jdbcType=INTEGER},
+      </if>
+      <if test="firewallId != null">
+        firewall_id = #{firewallId,jdbcType=INTEGER},
+      </if>
+      <if test="connectType != null">
+        connect_type = #{connectType,jdbcType=VARCHAR},
+      </if>
+      <if test="pointA != null">
+        point_a = #{pointA,jdbcType=VARCHAR},
+      </if>
+      <if test="pointB != null">
+        point_b = #{pointB,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.huawei.fxboot.host_computer.domain.entity.LinkEntity">
+    update link
+    set route_id = #{routeId,jdbcType=INTEGER},
+      switch_id = #{switchId,jdbcType=INTEGER},
+      firewall_id = #{firewallId,jdbcType=INTEGER},
+      connect_type = #{connectType,jdbcType=VARCHAR},
+      point_a = #{pointA,jdbcType=VARCHAR},
+      point_b = #{pointB,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <insert id="insertConnectRelationship">
+    ${sqlStr}
+  </insert>
+  <insert id="disConnectRelationship">
+    ${disSql}
+  </insert>
+  <select id="getLink" resultType="com.huawei.fxboot.host_computer.domain.Link">
+    select id as id,
+           route_id as routeId,
+           switch_id as switchId,
+           firewall_id as firewallId,
+           connect_type as connectType,
+           point_a  as pointA,
+           point_b  as pointB,
+           occupy  as occupier
+  from link
+  where occupy = #{occupier}
+  </select>
+</mapper>

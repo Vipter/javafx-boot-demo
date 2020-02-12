@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huawei.fxboot.host_computer.mapper.TopoMapper">
+  <resultMap id="BaseResultMap" type="com.huawei.fxboot.host_computer.domain.entity.TopoEntity">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="equ_id" jdbcType="INTEGER" property="equId" />
+    <result column="pos_x" jdbcType="DOUBLE" property="posX" />
+    <result column="pos_y" jdbcType="DOUBLE" property="posY" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, equ_id, pos_x, pos_y
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from topo
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from topo
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.huawei.fxboot.host_computer.domain.entity.TopoEntity">
+    insert into topo (id, equ_id, pos_x, 
+      pos_y)
+    values (#{id,jdbcType=INTEGER}, #{equId,jdbcType=INTEGER}, #{posX,jdbcType=DOUBLE}, 
+      #{posY,jdbcType=DOUBLE})
+  </insert>
+  <insert id="insertSelective" parameterType="com.huawei.fxboot.host_computer.domain.entity.TopoEntity">
+    insert into topo
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="equId != null">
+        equ_id,
+      </if>
+      <if test="posX != null">
+        pos_x,
+      </if>
+      <if test="posY != null">
+        pos_y,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="equId != null">
+        #{equId,jdbcType=INTEGER},
+      </if>
+      <if test="posX != null">
+        #{posX,jdbcType=DOUBLE},
+      </if>
+      <if test="posY != null">
+        #{posY,jdbcType=DOUBLE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.huawei.fxboot.host_computer.domain.entity.TopoEntity">
+    update topo
+    <set>
+      <if test="equId != null">
+        equ_id = #{equId,jdbcType=INTEGER},
+      </if>
+      <if test="posX != null">
+        pos_x = #{posX,jdbcType=DOUBLE},
+      </if>
+      <if test="posY != null">
+        pos_y = #{posY,jdbcType=DOUBLE},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.huawei.fxboot.host_computer.domain.entity.TopoEntity">
+    update topo
+    set equ_id = #{equId,jdbcType=INTEGER},
+      pos_x = #{posX,jdbcType=DOUBLE},
+      pos_y = #{posY,jdbcType=DOUBLE}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <insert id="saveNodePosition" parameterType="com.huawei.fxboot.host_computer.domain.Topo">
+    insert into topo
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="equId != null">
+        equ_id,
+      </if>
+      <if test="posX != null">
+        pos_x,
+      </if>
+      <if test="posY != null">
+        pos_y,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="equId != null">
+        #{equId,jdbcType=INTEGER},
+      </if>
+      <if test="posX != null">
+        #{posX,jdbcType=DOUBLE},
+      </if>
+      <if test="posY != null">
+        #{posY,jdbcType=DOUBLE},
+      </if>
+    </trim>
+  </insert>
+  <select id="getTopoEquipment" parameterType="java.lang.String" resultType="com.huawei.fxboot.host_computer.domain.EquipmentTopoOccupy">
+        select tp.equ_id as equId,
+               tp.pos_x as posX,
+               tp.pos_y as posY,
+               eq.occupy as occupier,
+               eq.model as model
+        from topo tp
+        inner join equipment eq
+        where eq.id = tp.equ_id
+        and eq.occupy = #{occupier}
+  </select>
+</mapper>

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee4106f6-4285-41bf-869c-4679ccc552f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_roskenet_springboot_javafx_support_1_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/config/SplashScreenCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/controller/HostComputerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/controller/HostTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/domain/Equipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/domain/EquipmentTopoOccupy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/domain/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/domain/Topo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/domain/entity/EquipmentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/domain/entity/LinkEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/domain/entity/TopoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/mapper/EquipmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/mapper/LinkMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/mapper/TopoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/service/EquipmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/service/impl/EquipmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/utils/control_extends/MyCheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/utils/control_extends/MyTableTreeCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/utils/control_extends/TreeTableItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/view/HostComputerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/view/HostTestView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/firewall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/load.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/number.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/route.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/host_computer.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/host_test.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/host_test_view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/test.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xml/EquipmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xml/LinkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xml/TopoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/查询字段和字段所在列等信息.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/huawei/fxboot/host_computer/mapper/LinkMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/huawei/fxboot/host_computer/service/impl/EquipmentServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartajet/fxboot/demo/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartajet/fxboot/demo/base/LoginUserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartajet/fxboot/demo/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartajet/fxboot/demo/mapper/LoginUserInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartajet/fxboot/demo/service/LoginUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartajet/fxboot/demo/service/impl/LoginUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartajet/fxboot/demo/view/LoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Login.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xml/LoginUserInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/spartajet/fxboot/demo/service/LoginUserServiceTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\ChromeCoreDownloads\springbootjavafx\javafx-boot-demo-master" />
+        <option value="D:\ChromeCoreDownloads\springbootjavafx\javafx-boot-demo-master\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/eclipse/Apache/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="G:\eclipse\Apache\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XTlGG8SsK6sTJufKTkJaawPaK5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/view" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.huawei.fxboot.host_computer.mapper" />
+      <recent name="com.huawei.fxboot.host_computer.service.impl" />
+      <recent name="com.spartajet.fxboot.demo.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ChromeCoreDownloads\springbootjavafx\javafx-boot-demo-master\src\main\resources\xml" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.huawei.fxboot.host_computer.domain" />
+      <recent name="com.huawei.fxboot.host.view" />
+      <recent name="com.huawei.fxboot.host.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\host\src\main\resources\view" />
+      <recent name="H:\host\src\main\resources\images" />
+      <recent name="H:\host\src\main\resources\image" />
+      <recent name="H:\host\src\main\resources" />
+      <recent name="H:\host\src\main\resources\xml" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.huawei.fxboot.host_computer.utils.control_extends" />
+      <recent name="com.huawei.fxboot.host_computer.utils.control_entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MainController">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huawei.fxboot.host_computer.MainApplication" />
+      <module name="javafx-boot-demo-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huawei.fxboot.host_computer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkMapperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javafx-boot-demo-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huawei.fxboot.host_computer.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huawei.fxboot.host_computer.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.huawei.fxboot.host_computer.mapper.LinkMapperTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkMapperTest.testGetColumnAndColumnPos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javafx-boot-demo-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huawei.fxboot.host_computer.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huawei.fxboot.host_computer.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.huawei.fxboot.host_computer.mapper.LinkMapperTest" />
+      <option name="METHOD_NAME" value="testGetColumnAndColumnPos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkMapperTest.testGetLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javafx-boot-demo-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huawei.fxboot.host_computer.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huawei.fxboot.host_computer.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.huawei.fxboot.host_computer.mapper.LinkMapperTest" />
+      <option name="METHOD_NAME" value="testGetLink" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkMapperTest.testGetLinkMsg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javafx-boot-demo-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huawei.fxboot.host_computer.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huawei.fxboot.host_computer.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.huawei.fxboot.host_computer.mapper.LinkMapperTest" />
+      <option name="METHOD_NAME" value="testGetLinkMsg" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainController" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="javafx-boot-demo-master" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huawei.fxboot.host_computer.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LinkMapperTest.testGetLink" />
+        <item itemvalue="JUnit.LinkMapperTest.test" />
+        <item itemvalue="JUnit.LinkMapperTest.testGetLinkMsg" />
+        <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.LinkMapperTest.testGetColumnAndColumnPos" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee4106f6-4285-41bf-869c-4679ccc552f4" name="Default Changelist" comment="" />
+      <created>1581077867169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581077867169</updated>
+      <workItem from="1581077868460" duration="23000" />
+      <workItem from="1581077913389" duration="10689000" />
+      <workItem from="1581134988243" duration="3501000" />
+      <workItem from="1581151501887" duration="4408000" />
+      <workItem from="1581164399476" duration="43000" />
+      <workItem from="1581164565949" duration="15871000" />
+      <workItem from="1581221304696" duration="312000" />
+      <workItem from="1581223485218" duration="25177000" />
+      <workItem from="1581257347192" duration="239000" />
+      <workItem from="1581257781205" duration="2887000" />
+      <workItem from="1581311288801" duration="963000" />
+      <workItem from="1581312267601" duration="20000" />
+      <workItem from="1581316271528" duration="647000" />
+      <workItem from="1581316994864" duration="7552000" />
+      <workItem from="1581329686802" duration="35000" />
+      <workItem from="1581330058886" duration="57000" />
+      <workItem from="1581330431254" duration="14000" />
+      <workItem from="1581330734816" duration="31157000" />
+      <workItem from="1581397784974" duration="20790000" />
+      <workItem from="1581434808382" duration="1880000" />
+      <workItem from="1581483114808" duration="1287000" />
+      <workItem from="1581489141488" duration="4000" />
+      <workItem from="1581495165369" duration="17013000" />
+    </task>
+    <task id="LOCAL-00001" summary="springboot+javafx+mybatis+mysql">
+      <created>1581147472935</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581147472935</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="springboot+javafx+mybatis+mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot+javafx+mybatis+mysql" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="645" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581360983158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="645" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581360983158" />
+    <state x="1092" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1581512655332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1092" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581512655332" />
+    <state x="690" y="294" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1581086227717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="294" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581086227717" />
+    <state x="593" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581173446320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="593" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581173446320" />
+    <state x="714" y="347" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1581495226630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="347" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581495226630" />
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581511202870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581511202870" />
+    <state x="430" y="108" key="CommitChangelistDialog2" timestamp="1581147471308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="430" y="108" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581147471308" />
+    <state width="863" height="466" key="DebuggerActiveHint" timestamp="1581502553387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="863" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1581502553387" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1581483142554">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581483142554" />
+    <state x="713" y="404" key="Github.ShareDialog" timestamp="1581146796217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="713" y="404" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581146796217" />
+    <state x="593" y="219" key="Github.UntrackedFilesDialog" timestamp="1581146904388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="593" y="219" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581146904388" />
+    <state width="1876" height="344" key="GridCell.Tab.0.bottom" timestamp="1581515620043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581515620043" />
+    <state width="1876" height="344" key="GridCell.Tab.0.center" timestamp="1581515620043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581515620043" />
+    <state width="1876" height="344" key="GridCell.Tab.0.left" timestamp="1581515620043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581515620043" />
+    <state width="1876" height="344" key="GridCell.Tab.0.right" timestamp="1581515620043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581515620043" />
+    <state width="1876" height="344" key="GridCell.Tab.1.bottom" timestamp="1581515620044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581515620044" />
+    <state width="1876" height="344" key="GridCell.Tab.1.center" timestamp="1581515620043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581515620043" />
+    <state width="1876" height="344" key="GridCell.Tab.1.left" timestamp="1581515620043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581515620043" />
+    <state width="1876" height="344" key="GridCell.Tab.1.right" timestamp="1581515620043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581515620043" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1581078057319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581078057319" />
+    <state x="461" y="151" width="1303" height="738" key="SettingsEditor" timestamp="1581321419769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" width="1303" height="738" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581321419769" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1581516006222">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581516006222" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1581176050322">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1581176050322" />
+    <state x="916" y="183" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581362077255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="916" y="183" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581362077255" />
+    <state x="636" y="116" width="647" height="807" key="find.popup" timestamp="1581174510206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="116" width="647" height="807" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581174510206" />
+    <state x="352" y="277" key="new project wizard" timestamp="1581153053157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="352" y="277" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1581153053157" />
+    <state x="616" y="235" key="run.anything.popup" timestamp="1581500302896">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581500302896" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581514241948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581514241948" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/controller/HostComputerController.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/huawei/fxboot/host_computer/controller/HostTestController.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="&quot;firewall&quot;.equals(model)" />
+        <watch expression="!equComboBox1.getItems().contains(equ)" />
+        <watch expression="!topoLeftDisplay.getChildren().contains(node)" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

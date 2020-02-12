@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="842.0" prefWidth="1233.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.huawei.fxboot.host_computer.controller.HostTestController">
+   <top>
+      <MenuBar prefHeight="32.0" prefWidth="1083.0" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <SplitPane dividerPositions="0.3484848484848485" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button fx:id="deviceManagement" layoutX="57.0" layoutY="25.0" mnemonicParsing="false" onAction="#deviceClick" prefHeight="115.0" prefWidth="131.0" style="-fx-background-color: #45b97c;" text="设备管理" />
+                  <Button fx:id="topoManagement" layoutX="337.0" layoutY="26.0" mnemonicParsing="false" onAction="#topoClick" prefHeight="113.0" prefWidth="136.0" style="-fx-background-color: #45b97c;" text="拓扑管理" />
+                  <Button layoutX="685.0" layoutY="28.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="138.0" style="-fx-background-color: #45b97c;" text="资源管理" />
+                  <Button layoutX="1032.0" layoutY="28.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="152.0" style="-fx-background-color: #45b97c;" text="服务管理" />
+                  <Button layoutX="57.0" layoutY="160.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="1127.0" style="-fx-background-color: #45b97c;" text="服务编排" />
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="splitBottomManagement" minHeight="0.0" minWidth="0.0" prefHeight="317.0" prefWidth="1081.0">
+               <children>
+                  <Pane prefHeight="492.0" prefWidth="1233.0">
+                     <children>
+                        <SplitPane dividerPositions="0.35591836734693877" prefHeight="495.0" prefWidth="1227.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <SplitPane dividerPositions="0.7079107505070994" layoutX="-1.0" layoutY="-2.0" orientation="VERTICAL" prefHeight="495.0" prefWidth="435.0">
+                                      <items>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                             <children>
+                                                <Pane fx:id="deviceLeftDisplay" prefHeight="349.0" prefWidth="434.0">
+                                                   <children>
+                                                      <Label layoutX="46.0" layoutY="85.0" text="name" />
+                                                      <Label layoutX="46.0" layoutY="124.0" text="model" />
+                                                      <Label layoutX="46.0" layoutY="162.0" text="status" />
+                                                      <Label layoutX="46.0" layoutY="201.0" text="others" />
+                                                      <Label alignment="CENTER" layoutX="85.0" layoutY="36.0" prefHeight="15.0" prefWidth="257.0" text="搜索条件" />
+                                                      <TextField fx:id="nameText" layoutX="100.0" layoutY="83.0" prefHeight="26.0" prefWidth="148.0" />
+                                                      <ChoiceBox fx:id="modelChoiceItem" layoutX="99.0" layoutY="119.0" prefWidth="150.0" />
+                                                      <ChoiceBox fx:id="statusChoiceItem" layoutX="99.0" layoutY="158.0" prefWidth="150.0" />
+                                                      <ChoiceBox fx:id="othersChoiceItem" layoutX="99.0" layoutY="197.0" prefWidth="150.0" />
+                                                      <Button fx:id="btnSearch" layoutX="298.0" layoutY="81.0" mnemonicParsing="false" onAction="#btnSearchAction" prefHeight="136.0" prefWidth="102.0" text="Search" />
+                                                   </children>
+                                                </Pane>
+                                                <Pane fx:id="topoLeftDisplay" prefHeight="349.0" prefWidth="433.0" />
+                                             </children>
+                                          </AnchorPane>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="229.0" prefWidth="433.0">
+                                             <children>
+                                                <Pane fx:id="btnDisplay" layoutX="6.0" layoutY="2.0" prefHeight="137.0" prefWidth="433.0">
+                                                   <children>
+                                                      <Button fx:id="btnAdd" layoutX="25.0" layoutY="23.0" mnemonicParsing="false" onAction="#btnAddAction" prefHeight="47.0" prefWidth="56.0" text="Add" />
+                                                      <Button fx:id="btnEdit" layoutX="117.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnEditAction" prefHeight="44.0" prefWidth="58.0" text="Edit" />
+                                                      <Button fx:id="btnDel" layoutX="230.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnDelAction" prefHeight="44.0" prefWidth="59.0" text="Del" />
+                                                      <Button fx:id="btnNext" layoutX="349.0" layoutY="110.0" mnemonicParsing="false" onAction="#btnNextAction" text="Next" />
+                                                      <Button fx:id="btnTopo" layoutX="339.0" layoutY="21.0" mnemonicParsing="false" onAction="#btnTopoAction" prefHeight="45.0" prefWidth="58.0" text="Topo" />
+                                                   </children>
+                                                </Pane>
+                                             </children>
+                                          </AnchorPane>
+                                      </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <Pane fx:id="deviceTreeTableViewDisplay" prefHeight="495.0" prefWidth="786.0">
+                                       <children>
+                                          <TreeTableView fx:id="treeTableView" prefHeight="494.0" prefWidth="787.0" />
+                                       </children>
+                                    </Pane>
+                                    <Pane fx:id="topoCanvasDisplay" prefHeight="493.0" prefWidth="788.0">
+                                       <children>
+                                          <Canvas height="491.0" width="789.0" />
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </children>
+                  </Pane>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </center>
+   <bottom>
+      <Pane fx:id="bottomDevicePane" prefHeight="48.0" prefWidth="1075.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
